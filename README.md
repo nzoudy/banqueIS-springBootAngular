@@ -18,3 +18,30 @@ une opération est définie par un numero, une date et un montant.
 
 
 
+SPECIFICATIONS FONCTIONNELLES
+L'application doit permettre:
+* Ajouter des groupes
+* Ajouter des employés
+* Affecter les employés aux groupes
+* Ajouter des clients
+* Ajouter des comptes
+* Effectuer des versements dans un compte
+* Effectuer des retraits dans un compte
+* Effectuer des virements d'un compte vers un autre.
+* Consulter un compte
+* consulter les comptes d'un client
+* consulter une page d'opérations concernant un compte
+* 
+
+
+
+
+APPLICATION 
+L'application se compose des couches suivants:
+la couche DAO basée sur Spring Data(JPA,, Hibernate)
+La couche métier
+la couche web basé sur MVC coté client: Service Restful coté serveur et HTML, AngularJS, BootStrap coté client.
+une couche RMI
+une couche Service SOAP
+L'inversion de contrôle est basée sur SpringBoot
+
