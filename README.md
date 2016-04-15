@@ -45,3 +45,32 @@ une couche RMI
 une couche Service SOAP
 L'inversion de contrôle est basée sur SpringBoot
 
+
+
+TRAVAIL DEMANDE
+*Etablir une architecture technique du projet
+*Etablir un diagramme de classe qui montre les entités, la couche DAO et la couche métier
+*Créer un projet springboot qui contient les éléments suivants:
+  les entités 
+  la couche dao (interface spring data)
+  la couche web
+    un service restful
+    l'application web qui permet de:
+      consulter un compte(solde, date de création, client, employé, opérations paginées)
+      effectuer un retrait
+      effectuer un versement
+      effectuer un virement
+    couche service basée sur jaxWS(SOAP)
+    couche RMI
+*Créer un client RMI
+*Créer un client Soap JAVA
+*Créer un client Soap PHP
+*Créer un client Soap DOt Net
+*Créer un client Android
+
+
+
+
+
+
+
